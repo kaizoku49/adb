@@ -24,4 +24,4 @@ Still not working? Try this:
 6. Developer Settings -> Wireless ADB Debugging -> On
 7. Developer Settings -> ADB Debugging -> On
 8. Enable Airplane Mode
-9. Open LADB
+9. Open ADB
