@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ADB</string>
+
+    <string name="command_hint">Shell command</string>
+
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="clear">Clear screen</string>
+
+    <string name="snackbar_intent_failed">Failed to share log</string>
+    <string name="snackbar_file_opened">Executing script from file</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="reset">Reset</string>
+    <string name="okay">Okay</string>
+
+    <string name="developer_url">https://www.github.com/kaizoku49</string>
+    <string name="source_url">https://www.github.com/kaizoku49/ADB</string>
+    <string name="contact_url">mailto:lokearouet@gmail.com</string>
+
+    <string name="paired_key">paired</string>
+    <string name="port_hint">Port</string>
+    <string name="port_text">1234</string>
+
+    <string name="code_hint">Pairing code</string>
+    <string name="code_text">123456</string>
+
+    <string name="pair_title">Pairing information</string>
+    <string name="pair_message">You can find the port and the 6-digit pairing code here: Settings -> Developer Settings -> Wireless Debugging. Open ADB and Settings using <b>Split Screen</b> to prevent the code from changing.</string>
+
+    <string name="actions">Actions</string>
+    <string name="troubleshooting">Troubleshooting</string>
+    <string name="about">About</string>
+
+    <string name="reset_title">Reset server</string>
+    <string name="reset_summary">Restore the app to factory settings, erasing pairing information and ADB server files</string>
+    <string name="reset_key">reset</string>
+
+    <string name="auto_shell_title">Auto ADB Shell</string>
+    <string name="auto_shell_summary">Automatically enter the ADB shell</string>
+    <string name="auto_shell_key">no_adb</string>
+
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_summary">The initial steps to setup ADB are as follows. First, enable Developer Settings by tapping on the Build Number rapidly. Next, enter Developer Settings and enable Wireless Debugging. Next, enable USB Debugging. <b>It must occur in this order for some devices</b>. Restart ADB and grant it permission when it asks.</string>
+
+    <string name="error_waiting_title">Stuck on \"Waiting\"</string>
+    <string name="error_waiting_summary">This is the most common issue. First, make sure you follow the Tutorial steps. Then, try first restarting the app. If the issue is still occurring, reboot the device.</string>
+
+    <string name="error_no_wireless_debugging_title">No \"Wireless Debugging\" toggle</string>
+    <string name="error_no_wireless_debugging_summary">Your device does not natively support Wireless Debugging, which is required by ADB. Alternatively, you can use a PC to enable this feature, even on unsupported features. It will last until the next reboot. Connect the device and type: adb tcpip 5555</string>
+
+    <string name="error_more_than_one_title">More than one device connected</string>
+    <string name="error_more_than_one_summary">This error is one of the most common. Often, it can be fixed by <b>rebooting the device</b>. Another possible way to fix this for Android 10 users and below is to <b>enable Airplane Mode</b> because launching the app. Remember that after rebooting the device, Wireless Debugging <i>may turn off</i> and need to be turned on again.</string>
+
+    <string name="error_pairing_client_title">Unable to start pairing client</string>
+    <string name="error_pairing_client_summary">The most likely scenario for this error is an incorrectly entered port or pairing code. The port should always be followed by the colon. For example, 50123. The pairing code is six digits, it is the number that is on its own.</string>
+
+    <string name="error_inaccessible_title">Inaccessible or not found</string>
+    <string name="error_inaccessible_summary">You have most likely written a command that is not valid. Remember, ADB is the equivalent of having already ran \"adb shell\".</string>
+
+    <string name="error_failed_to_find_title">Failed to find ADB server binary</string>
+    <string name="error_failed_to_find_summary">The ADB server binary was never extracted from the application files. Try reinstalling the application.</string>
+
+    <string name="developer_title">Developer</string>
+    <string name="developer_summary">Loke Arouet</string>
+    <string name="developer_key">developer</string>
+
+    <string name="source_title">Source code</string>
+    <string name="source_summary">View the source code on GitHub</string>
+    <string name="source_key">source</string>
+
+    <string name="contact_title">Contact</string>
+    <string name="contact_summary">Email me for assistance</string>
+    <string name="contact_key">contact</string>
+
+    <string name="licenses_title">Licenses</string>
+    <string name="licenses_summary">View the open source licenses</string>
+    <string name="licenses_key">licenses</string>
+</resources>
